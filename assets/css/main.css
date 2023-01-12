@@ -969,8 +969,10 @@ pre code {
   }
 
   .icon-image {
-    width: 60px;
-    height: 45px;
+    width: 60px !important;
+    height: 45px !important;
+		margin: 0 10px 10px 0;
+	
   }
   .row > .off-12-large {
     margin-left: 100%;
@@ -2141,6 +2143,7 @@ input[type="radio"] + label:before {
 
 .icon.solid:before {
   font-weight: 900;
+
 }
 
 .icon.brands:before {
@@ -2475,16 +2478,17 @@ ul.actions.fit.stacked {
 ul.feature-icons {
   list-style: none;
   padding-left: 0;
+
 }
 
 ul.feature-icons li {
   text-decoration: none;
   display: inline-block;
   margin: 0 0 1.6875em 0;
-  /* padding: 0.35em 0 0 3.5em; */
+  padding: 0.35em 0 0 3.5em;
   position: relative;
   vertical-align: top;
-  /* width: 48%; */
+  width: 48%;
 }
 
 ul.feature-icons li:before {
